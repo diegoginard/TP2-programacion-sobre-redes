@@ -141,36 +141,33 @@ Hashear contraseñas es una práctica de seguridad fundamental. Si la base de da
 ## Capturas de pantalla
 
 - /registro – Respuesta 201 al registrar usuario en Postman 
+
 ![registro exitoso](assets/registro_exitoso.png)
 
 - /registro – Respuesta 400 al registrar usuario en Postman 
+
 ![registro exitoso](assets/registro_fallido.png)
 ![registro exitoso](assets/registro_fallido1.png)
 
-- /login - Respuesta 200 al iniciar sesión en Postman 
+- /login - Respuesta 200 al iniciar sesión en Postman
+
 ![Login exitoso](assets/login_exitoso.png) 
 
 - /login – Respuesta 401 con credenciales incorrectas 
+
 ![Login fallido](assets/login_fallido.png)
 
 - /tareas – Página HTML de bienvenida en el navegador 
+
 ![tarea pagina-web](assets/tareas_bienvenida.png)
 
 - /tareas - Respuesta 200 con parametros correctos 
+
 ![tarea exitoso](assets/tareas_exitoso.png)
 
 - Consola – Sesión con el cliente de consola 
+
 ![consola cliente](assets/consola_cliente.png)
 
----
 
-## GitHub Pages
 
-Para publicar la documentación en GitHub Pages:
-
-1. Subir el proyecto a un repositorio en GitHub.
-2. Ir a **Settings → Pages**.
-3. Seleccionar la rama `main` y la carpeta raíz `/`.
-4. GitHub Pages publicará el `README.md` como página web del proyecto.
-
-> **Nota:** el servidor Flask no puede ejecutarse en GitHub Pages ya que es hosting estático. Pages sirve únicamente para mostrar la documentación del proyecto.
