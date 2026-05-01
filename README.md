@@ -6,14 +6,13 @@ API REST construida con **Flask** y **SQLite**, con autenticación y contraseña
 
 ## Estructura del proyecto
 
-```
 PFO2/
 ├── servidor.py      # API Flask + SQLite
 ├── cliente.py       # Cliente de consola
 ├── tareas.db        # Base de datos (se crea automáticamente)
 ├── assets/         # carpeta de imagenes
 └── README.md
-```
+
 
 ---
 
@@ -39,9 +38,9 @@ python servidor.py
 ```
 
 Verás el mensaje:
-```
+
 Servidor corriendo en http://127.0.0.1:5000
-```
+
 
 ### 2. Usar el cliente de consola (en otra terminal)
 
@@ -50,14 +49,14 @@ python cliente.py
 ```
 
 El menú ofrece dos opciones:
-```
+
 ╔══════════════════════════════╗
 ║   Crear/logear usuario       ║
 ╚══════════════════════════════╝
 1. Registrar usuario
 2. Iniciar sesión (login)
 0. Salir
-```
+
 
 - **Opción 1:** Registra un nuevo usuario. Pide nombre de usuario y contraseña (no permite campos vacíos).
 - **Opción 2:** Inicia sesión. Si las credenciales son correctas, abre automáticamente el navegador con la página de bienvenida.
