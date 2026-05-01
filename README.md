@@ -140,12 +140,27 @@ Hashear contraseñas es una práctica de seguridad fundamental. Si la base de da
 
 ## Capturas de pantalla
 
-- /registro – Respuesta 201 al registrar usuario en Postman ![registro exitoso](assets/registro_exitoso.png)
-- /login - Respuesta 200 al iniciar sesión en Postman ![Login exitoso](assets/login_exitoso.png) 
-- /login – Respuesta 401 con credenciales incorrectas ![Login fallido](assets/login_fallido.png)
-- /tareas – Página HTML de bienvenida en el navegador ![tarea pagina-web](assets/tareas_bienvenida.png)
-- /tareas - Respuesta 200 con parametros correctos ![tarea exitoso](assets/tareas_exitoso.png)
-- Consola – Sesión con el cliente de consola ![consola cliente](assets/consola_cliente.png)
+- /registro – Respuesta 201 al registrar usuario en Postman 
+![registro exitoso](assets/registro_exitoso.png)
+
+- /registro – Respuesta 400 al registrar usuario en Postman 
+![registro exitoso](assets/registro_fallido.png)
+![registro exitoso](assets/registro_fallido1.png)
+
+- /login - Respuesta 200 al iniciar sesión en Postman 
+![Login exitoso](assets/login_exitoso.png) 
+
+- /login – Respuesta 401 con credenciales incorrectas 
+![Login fallido](assets/login_fallido.png)
+
+- /tareas – Página HTML de bienvenida en el navegador 
+![tarea pagina-web](assets/tareas_bienvenida.png)
+
+- /tareas - Respuesta 200 con parametros correctos 
+![tarea exitoso](assets/tareas_exitoso.png)
+
+- Consola – Sesión con el cliente de consola 
+![consola cliente](assets/consola_cliente.png)
 
 ---
 
