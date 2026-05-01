@@ -10,8 +10,8 @@ PFO2/
 ├── servidor.py      # API Flask + SQLite
 ├── cliente.py       # Cliente de consola
 ├── tareas.db        # Base de datos (se crea automáticamente)
-├── assets/         # carpeta de imagenes
-└── README.md
+├── assets/          # carpeta de imagenes
+└── README.md       
 
 
 ---
@@ -117,7 +117,7 @@ El menú ofrece dos opciones:
 
 O abrí directamente en el navegador:
 ```
-http://127.0.0.1:5000/tareas
+- **URL:** `http://127.0.0.1:5000/tareas`
 ```
 
 ---
