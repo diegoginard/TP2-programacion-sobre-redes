@@ -6,13 +6,14 @@ API REST construida con **Flask** y **SQLite**, con autenticación y contraseña
 
 ## Estructura del proyecto
 
+```bash
 PFO2/
 ├── servidor.py      # API Flask + SQLite
 ├── cliente.py       # Cliente de consola
 ├── tareas.db        # Base de datos (se crea automáticamente)
 ├── assets/          # carpeta de imagenes
 └── README.md       
-
+```
 
 ---
 
