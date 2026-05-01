@@ -168,6 +168,8 @@ Hashear contraseñas es una práctica de seguridad fundamental. Si la base de da
 - Consola – Sesión con el cliente de consola 
 
 ![consola cliente](assets/consola_cliente.png)
+![consola cliente](assets/consola.png)
+![consola cliente](assets/consola1.png)
 
 
 
