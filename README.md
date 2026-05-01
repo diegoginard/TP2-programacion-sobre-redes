@@ -53,6 +53,7 @@ El menú ofrece dos opciones:
 ╔══════════════════════════════╗
 ║   Crear/logear usuario       ║
 ╚══════════════════════════════╝
+
 1. Registrar usuario
 2. Iniciar sesión (login)
 0. Salir
