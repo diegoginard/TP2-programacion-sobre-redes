@@ -50,6 +50,7 @@ python cliente.py
 
 El menú ofrece dos opciones:
 
+```bash
 ╔══════════════════════════════╗
 ║   Crear/logear usuario       ║
 ╚══════════════════════════════╝
@@ -57,7 +58,7 @@ El menú ofrece dos opciones:
 1. Registrar usuario
 2. Iniciar sesión (login)
 0. Salir
-
+```
 
 - **Opción 1:** Registra un nuevo usuario. Pide nombre de usuario y contraseña (no permite campos vacíos).
 - **Opción 2:** Inicia sesión. Si las credenciales son correctas, abre automáticamente el navegador con la página de bienvenida.
