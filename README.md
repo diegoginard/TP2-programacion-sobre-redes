@@ -173,5 +173,5 @@ Hashear contraseñas es una práctica de seguridad fundamental. Si la base de da
 ![consola cliente](assets/consola.png)
 ![consola cliente](assets/consola1.png)
 
-
-
+- Base de datos – tabla usuario 
+![base de datos](assets/base_datos.png)
