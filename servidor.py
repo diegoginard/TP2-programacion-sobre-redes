@@ -13,7 +13,7 @@ def init_db():
             CREATE TABLE IF NOT EXISTS usuarios (
                 id        INTEGER PRIMARY KEY AUTOINCREMENT,
                 usuario   TEXT    UNIQUE NOT NULL,
-                password  TEXT    NOT NULL
+                contrasena  TEXT    NOT NULL
             )
         """)
         con.commit()
@@ -22,7 +22,7 @@ def init_db():
 def get_user(usuario):
     with sqlite3.connect(DB) as con:
         cur = con.cursor()
-        cur.execute("SELECT usuario, password FROM usuarios WHERE usuario = ?", (usuario,))
+        cur.execute("SELECT usuario, contrasena FROM usuarios WHERE usuario = ?", (usuario,))
         return cur.fetchone()
 
 
@@ -50,7 +50,7 @@ def registro():
 
     try:
         with sqlite3.connect(DB) as con:
-            con.execute("INSERT INTO usuarios (usuario, password) VALUES (?, ?)", (usuario, hashed))
+            con.execute("INSERT INTO usuarios (usuario, contrasena) VALUES (?, ?)", (usuario, hashed))
             con.commit()
         return jsonify({"mensaje": f"Usuario '{usuario}' registrado correctamente"}), 201
     except sqlite3.IntegrityError:
